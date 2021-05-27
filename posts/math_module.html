@@ -7,8 +7,8 @@
 <meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Модуль числа" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Натуральные числа: 0, 1, 2, 3, 4, … Целые числа: … -4, -3, -2, -1, 0, 1, 2, 3, 4, … \[|4| = |-4| = 4\]." />
-<meta property="og:description" content="Натуральные числа: 0, 1, 2, 3, 4, … Целые числа: … -4, -3, -2, -1, 0, 1, 2, 3, 4, … \[|4| = |-4| = 4\]." />
+<meta name="description" content="Натуральные числа: 0, 1, 2, 3, 4, … Целые числа: … -4, -3, -2, -1, 0, 1, 2, 3, 4, …" />
+<meta property="og:description" content="Натуральные числа: 0, 1, 2, 3, 4, … Целые числа: … -4, -3, -2, -1, 0, 1, 2, 3, 4, …" />
 <link rel="canonical" href="https://hspb00.github.io/math/posts/math_module" />
 <meta property="og:url" content="https://hspb00.github.io/math/posts/math_module" />
 <meta property="og:site_name" content="hello world" />
@@ -17,7 +17,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Модуль числа" />
 <script type="application/ld+json">
-{"description":"Натуральные числа: 0, 1, 2, 3, 4, … Целые числа: … -4, -3, -2, -1, 0, 1, 2, 3, 4, … \\[|4| = |-4| = 4\\].","@type":"BlogPosting","url":"https://hspb00.github.io/math/posts/math_module","headline":"Модуль числа","datePublished":"2021-05-25T09:31:24+07:00","dateModified":"2021-05-25T09:31:24+07:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://hspb00.github.io/math/posts/math_module"},"@context":"https://schema.org"}</script>
+{"headline":"Модуль числа","dateModified":"2021-05-25T09:31:24+07:00","datePublished":"2021-05-25T09:31:24+07:00","description":"Натуральные числа: 0, 1, 2, 3, 4, … Целые числа: … -4, -3, -2, -1, 0, 1, 2, 3, 4, …","mainEntityOfPage":{"@type":"WebPage","@id":"https://hspb00.github.io/math/posts/math_module"},"@type":"BlogPosting","url":"https://hspb00.github.io/math/posts/math_module","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/math/assets/main.css"><link type="application/atom+xml" rel="alternate" href="https://hspb00.github.io/math/feed.xml" title="hello world" /><script id="MathJax-script" async src="https://hspb00.github.io/math/mathjax/tex-chtml.js"></script>
 
@@ -50,8 +50,64 @@
 
   <div class="post-content e-content" itemprop="articleBody">
     <p>Натуральные числа: 0, 1, 2, 3, 4, …<br />
-Целые числа: … -4, -3, -2, -1, 0, 1, 2, 3, 4, …<br />
-\[|4| = |-4| = 4\].</p>
+Целые числа: … -4, -3, -2, -1, 0, 1, 2, 3, 4, …</p>
+
+<p>Любое целое число имеет величину и знак.<br />
+Пример:<br />
++12 имеет величину 12 и знак плюс,<br />
+-12 имеет величину 12 и знак минус.<br />
+Знак плюс перед положительными числами обычно не пишется,
+поэтому +12 и 12 обозначает одно и то же целое число, то есть +12 = 12.</p>
+
+<p>Величину целого числа принято называть абсолютной величиной числа или модулем числа.
+Для числа \(t\) модуль (абсолютная величина) обозначется через \(|t|\).</p>
+
+<p>Таким образом, 
+\[|+12| = |12| = 12,\] \[|-12| = 12.\] <br />
+Тогда \(12 = 1*12 = 1*|12|\) и \(-12 = (-1)*12 = (-1)*|-12|\).<br />
+То есть 
+\[12 = 1*|12|,\]
+\[-12 = (-1)*|-12|.\] 
+Аналогично для произвольного числа \(t\) имеем
+\[t = 1*|t|, \text{если $t \geq 0$},\]
+\[t = (-1)*|t|, \text{если $t &lt; 0$}.\]
+Тогда 
+\[ t = s(t)*|t|, \] 
+где
+\(s(t) = 
+ \begin{cases}
+   1 &amp;\text{, если $t \geq 0$}\\
+  -1 &amp;\text{, если $t &lt; 0$}
+ \end{cases}\)</p>
+
+<p>Выразим модуль \(|t|\) через \(t\).
+Получаем, что <br />
+\[ |t| = \frac t{s(t)}.\] 
+То есть значение \(|t|\) равно числу \(t\), взятому без знака.</p>
+
+<p>Заметим, что \(s(t)*s(t) = 1\) для всех целых чисел \(t\).
+Поэтому \[s(t) = \frac 1{s(t)},\]
+то есть \[\frac 1{s(t)} = s(t)\]</p>
+
+<p>Получаем,что 
+\[ |t| = \frac t{s(t)} = s(t)*t,\]
+то есть 
+\[ |t| = s(t)*t\]
+Последнее равенство можно рассматривать в качестве определения модуля (абсолютной величины) числа 
+\(t\).
+То же самое верно для рациональных и вещественных чисел.</p>
+
+<p>Определение. Модулем (абсолютной величиной) числа \(t\) (натурального, целого, рационального, вещественного)
+называется число \(|t| = s(t)*t\), где</p>
+
+\[s(t) = 
+ \begin{cases}
+   1 &amp;\text{, если $t \geq 0$}\\
+  -1 &amp;\text{, если $t &lt; 0$}
+ \end{cases}\]
+
+<p>Также имеет место равенство 
+\( t = s(t)*|t|. \)</p>
 
 
   </div><a class="u-url" href="/math/posts/math_module" hidden></a>
