@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://hspb00.github.io/math/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hspb00.github.io/math/" rel="alternate" type="text/html" /><updated>2021-06-10T12:19:29+07:00</updated><id>https://hspb00.github.io/math/feed.xml</id><title type="html">hello world</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Модуль числа</title><link href="https://hspb00.github.io/math/posts/math_module" rel="alternate" type="text/html" title="Модуль числа" /><published>2021-06-03T09:31:24+07:00</published><updated>2021-06-03T09:31:24+07:00</updated><id>https://hspb00.github.io/math/posts/math_module</id><content type="html" xml:base="https://hspb00.github.io/math/posts/math_module">&lt;p&gt;Натуральные числа с нулем: 0, 1, 2, 3, 4, …&lt;br /&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://hspb00.github.io/math/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hspb00.github.io/math/" rel="alternate" type="text/html" /><updated>2021-06-10T17:45:06+07:00</updated><id>https://hspb00.github.io/math/feed.xml</id><title type="html">hello world</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Модуль числа</title><link href="https://hspb00.github.io/math/posts/math_module" rel="alternate" type="text/html" title="Модуль числа" /><published>2021-06-03T09:31:24+07:00</published><updated>2021-06-03T09:31:24+07:00</updated><id>https://hspb00.github.io/math/posts/math_module</id><content type="html" xml:base="https://hspb00.github.io/math/posts/math_module">&lt;p&gt;Натуральные числа с нулем: 0, 1, 2, 3, 4, …&lt;br /&gt;
 Целые числа: … -4, -3, -2, -1, 0, 1, 2, 3, 4, …&lt;/p&gt;
 
 &lt;p&gt;Любое целое число имеет &lt;a href=&quot;math_magnitude&quot;&gt;величину&lt;/a&gt; и знак.&lt;br /&gt;
@@ -186,7 +186,7 @@ DEFINITIONS.&lt;/p&gt;
 \(V_I\) - единицей измерения.
 Тогда \(V_A = F(A_V)*V_I\), где \[F(A_V) = V_A/V_I\in R\] является изоморфизмом величин объектов и числовых значений величин относительно единицы измерения \(V_I\). 
 Таким образом, изоморфизм F носит относительный характер и связан с выбором единицы измерения.
-То есть и в этом случае отождествлять величины и их числовые выражения можно только весьма условно.&lt;/p&gt;
+То есть и в этом случае отождествлять величины и их числовые значения можно только весьма условно.&lt;/p&gt;
 
 &lt;h1 id=&quot;iv-измерение-вычисление-величины&quot;&gt;IV Измерение, вычисление величины&lt;/h1&gt;
 
@@ -240,7 +240,7 @@ DEFINITIONS.&lt;/p&gt;
 То есть, как было замечено ранее, отрезки на прямой и в данном случае можно рассматривать как модель величины, соответствующей площадям фигур.&lt;/p&gt;
 
 &lt;p&gt;В предыдущей главе было показано, что особенность отрезков в том, что величину отрезка можно отождествлять 
-как с самим отрезком, так и с его числовой величиной. Поэтому измерение величины отрезка сводится к сопоставлению его с другими отрезками как объектами. Для других объектов процессы измерения отличаются.&lt;/p&gt;
+с самим отрезком. Поэтому измерение величины отрезка сводится к сопоставлению его с другими отрезками как объектами. Для других объектов процессы измерения отличаются.&lt;/p&gt;
 
 &lt;p&gt;Фигуры на плоскости или объемные фигуры сопоставлять сложнее, чем отрезки и не всегда возможно, но и в этом случае можно сравнивать их величины - площади и объемы.
 Фигуры и небольшие квадраты можно сопоставлять как объекты, например разбивая фигуру на такие квадраты.
