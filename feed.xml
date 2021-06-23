@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://hspb00.github.io/math/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hspb00.github.io/math/" rel="alternate" type="text/html" /><updated>2021-06-22T23:40:13+07:00</updated><id>https://hspb00.github.io/math/feed.xml</id><title type="html">hello world</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Специальная теория относительности</title><link href="https://hspb00.github.io/math/posts/special_relativity" rel="alternate" type="text/html" title="Специальная теория относительности" /><published>2021-06-07T09:31:24+07:00</published><updated>2021-06-07T09:31:24+07:00</updated><id>https://hspb00.github.io/math/posts/special_relativity</id><content type="html" xml:base="https://hspb00.github.io/math/posts/special_relativity">&lt;h1 id=&quot;локальная-модель-относительности&quot;&gt;Локальная модель относительности&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://hspb00.github.io/math/feed.xml" rel="self" type="application/atom+xml" /><link href="https://hspb00.github.io/math/" rel="alternate" type="text/html" /><updated>2021-06-23T09:27:23+07:00</updated><id>https://hspb00.github.io/math/feed.xml</id><title type="html">hello world</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Специальная теория относительности</title><link href="https://hspb00.github.io/math/posts/special_relativity" rel="alternate" type="text/html" title="Специальная теория относительности" /><published>2021-06-07T09:31:24+07:00</published><updated>2021-06-07T09:31:24+07:00</updated><id>https://hspb00.github.io/math/posts/special_relativity</id><content type="html" xml:base="https://hspb00.github.io/math/posts/special_relativity">&lt;h1 id=&quot;локальная-модель-относительности&quot;&gt;Локальная модель относительности&lt;/h1&gt;
 &lt;p&gt;Рассмотрим инерциальные системы отсчета \(S,S’\).&lt;/p&gt;
 &lt;pre&gt;
   S'                  v   
@@ -73,8 +73,28 @@
 &lt;p&gt;В итоге получается, что по первому пути отстают часы системы \(S’\), а по второму пути
 отстают часы системы \(S\). При этом данные первый и второй пути в виде приборов можно поместить в одно 
 точку координат, например, один над другим.
-Вот такой интересный результат. Как объяснить данную ситуацию с точки зрения СТО 
-пока не очень понятно.&lt;/p&gt;
+Как объяснить данную ситуацию с точки зрения СТО? 
+Насколько я понимаю, объяснение примерно следующее.
+То, что мы наблюдаем по часам во время относительного движения инерциальных
+систем не является реальным замедлением\ускорением  времени. 
+Это просто соответствие между разными системами отсчета, которые в какой-то степени существуют
+в разных временных не синхронизированных подпространствах.
+В ситуации, описанной выше возникает проблема не с замедлением времени, а с установлением такого соответствия.
+Реальное замедление времени происходит во время неинерциального движения, когда системы синхронизируются вместе с временными
+подпространствами. Поэтому эффекты, взаимного “замедления\ускорения” во время взаимного инерциального движения фактически
+являются фикцией, математическим соответствием, помогающим установить некоторое соответствие между временными подпространствами, которое затем может установиться при соответствующем неинерциальном движении.&lt;/p&gt;
+
+&lt;p&gt;Упрощенно, данные отношения можно проиллюстрировать, насколько я понимаю следующим образом.
+Рассмотрим угол, образующийся двумя лучами \(l, l’\). 
+На каждом из лучей выбраны одинаковые по длине единицы измерения.
+Эти два луча образуют два подпространства точек, не параллельных друг другу.
+Как мы можем установить соответствие между точками этих подпространств?
+Самый простой способ - с помощью проекции. Каждой точке \(x\) луча \(l\) мы можем поставить
+в соответствие точку \(x’\) луча \(l’\) так, что \(x’\) является проекцией точки \(x\).
+Но существует и двойственное отображение в обратную сторону, когда точки луча \(l’\) проецируются
+на точки луча \(l\). Но данное соответствие между лучами пока достаточно произвольны. 
+Более реальное соответствие можно установить, когда эти два луча просто будут совмещены.
+Возможно, в какой-то степени это иллюстрирует ситуацию с соответствием между временными пространствами  в СТО движущихся друг относительно друга инерциальных систем. Устанавливаемое соответствие достаточно условно до тех пор, пока временные пространства не будут совмещены с помощью неинерциального движения.&lt;/p&gt;
 
 &lt;h1 id=&quot;математическая-модель-относительности&quot;&gt;Математическая модель относительности&lt;/h1&gt;
 
